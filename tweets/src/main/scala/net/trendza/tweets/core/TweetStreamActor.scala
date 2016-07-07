@@ -5,6 +5,7 @@ package net.trendza.tweets.core
   */
 
 
+import java.io.{File, PrintWriter}
 import java.util.Date
 
 import akka.actor.{Actor, ActorRef}
@@ -20,6 +21,16 @@ import spray.httpx.unmarshalling._
 
 import scala.io.Source
 import scala.util.Try
+
+trait FileLogger {
+  def log(str: String) = {
+    val home = System.getProperty("user.home")
+    val writer = new PrintWriter(new File(s"$home/projects/trendza/log.txt" ))
+    writer.write(str)
+    writer.flush()
+    writer.close()
+  }
+}
 
 object MyJsonProtocol extends DefaultJsonProtocol {
   implicit object DateFormater extends JsonFormat[Date]{
@@ -53,14 +64,14 @@ trait OAuthTwitterAuthorization extends TwitterAuthorization {
 import MyJsonProtocol._
 trait TweetMarshaller {
 
-   object TweetUnmarshaller {
+   object TweetUnmarshaller extends FileLogger {
 
      implicit def sprayJsonUnmarshaller[T: RootJsonReader]: Unmarshaller[T] =
        new Unmarshaller[T] {
          override def apply(v1: HttpEntity): Deserialized[T] = v1 match {
            case x: HttpEntity.NonEmpty ⇒
+             log(v1.asString)
              val json = JsonParser(x.asString(defaultCharset = HttpCharsets.`UTF-8`))
-             println(json)
              try {
                Right(implicitly[RootJsonReader[T]].read(json))
              }catch {
@@ -95,7 +106,7 @@ class TweetStreamerActor(uri: Uri, processor: ActorRef) extends Actor with Tweet
     case OpenStream(follow) =>
       val body = HttpEntity(
         ContentType(MediaTypes.`application/x-www-form-urlencoded`),
-        s"delimited=length&track=${follow mkString ","}")
+        s"track=${follow mkString ","}")
       val rq =  HttpRequest(HttpMethods.POST, uri = uri, entity = body) ~> authorize
       sendTo(io).withResponsesReceivedBy(self)(rq)
       context become connected
@@ -104,12 +115,6 @@ class TweetStreamerActor(uri: Uri, processor: ActorRef) extends Actor with Tweet
   def connected: Receive = {
     case ChunkedResponseStart(_) =>
     case MessageChunk(entity, _) => TweetUnmarshaller(entity).fold(x =>  throw new Error(x.toString), processor !)
-    case r@HttpResponse(status,entity, _,_) => {
-      if(status.isSuccess){
-        TweetUnmarshaller(entity).fold(_ => (), processor !)
-      }else {
-        throw new Error("Connection failed: " + status)
-      }
-    }
+
    }
 }

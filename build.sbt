@@ -10,4 +10,5 @@ lazy val tweets = (project in file("tweets")).
 
 lazy val root = (project in file(".")).
   settings(Commons.settings: _*).
-  aggregate(tweets)
+  aggregate(tweets).
+  dependsOn(tweets)

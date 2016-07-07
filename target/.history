@@ -13,3 +13,35 @@ exit
 compile
 exit
 compile
+run
+compile
+run
+runMain
+runMain net.trendza.tweets.core.Main
+compile
+run
+runMain net.trendza.tweets.core.Main
+compile
+run
+runMain net.trendza.tweets.core.Main
+compile
+runMain net.trendza.tweets.core.Main
+compile
+track twitter,nero,#brexit
+runMain net.trendza.tweets.core.Main
+compile
+runMain net.trendza.tweets.core.Main
+compile
+runMain net.trendza.tweets.core.Main
+compile
+runMain net.trendza.tweets.core.Main
+compile
+console
+runMain net.trendza.tweets.core.Main
+compile
+runMain net.trendza.tweets.core.Main
+compile
+runMain net.trendza.tweets.core.Main
+run
+runMain
+runMain net.trendza.tweets.core.Main

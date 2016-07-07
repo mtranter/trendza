@@ -8,7 +8,7 @@
 [debug] == resolving dependencies for tweets#tweets$sources_2.11;0.1 [compile]
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16f36c92
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@332385bf
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -17,7 +17,7 @@
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->com.typesafe.akka#akka-actor_2.11;2.4.7 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.4.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48538115
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6aadf49c
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.4.7
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.4.7 in sbt-chain
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->com.typesafe.akka#akka-actor_2.11;2.4.7 [compile->runtime]
@@ -25,7 +25,7 @@
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->com.typesafe.akka#akka-actor_2.11;2.4.7 [compile->master]
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->com.typesafe#config;1.3.0 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.3.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2bcf7e29
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@515bf57e
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.3.0
 [debug] 	found com.typesafe#config;1.3.0 in sbt-chain
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->com.typesafe#config;1.3.0 [compile->runtime]
@@ -33,7 +33,7 @@
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->com.typesafe#config;1.3.0 [compile->master]
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b39d5db
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cf90cf4
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-java8-compat_2.11;0.7.0
 [debug] 	found org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 in sbt-chain
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->runtime]
@@ -41,7 +41,7 @@
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.scala-lang.modules#scala-java8-compat_2.11;0.7.0 [compile->master]
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-client_2.11;1.3.3 [compile->default(compile)]
 [info] Resolving io.spray#spray-client_2.11;1.3.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25006cfa
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@181cccbe
 [debug] sbt-chain: module revision found in cache: io.spray#spray-client_2.11;1.3.3
 [debug] 	found io.spray#spray-client_2.11;1.3.3 in sbt-chain
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-client_2.11;1.3.3 [compile->runtime]
@@ -49,7 +49,7 @@
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-client_2.11;1.3.3 [compile->master]
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-can_2.11;1.3.3 [compile->default(compile)]
 [info] Resolving io.spray#spray-can_2.11;1.3.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a9e6950
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d202d88
 [debug] sbt-chain: module revision found in cache: io.spray#spray-can_2.11;1.3.3
 [debug] 	found io.spray#spray-can_2.11;1.3.3 in sbt-chain
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-can_2.11;1.3.3 [compile->runtime]
@@ -57,7 +57,7 @@
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-can_2.11;1.3.3 [compile->master]
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-io_2.11;1.3.3 [compile->default(compile)]
 [info] Resolving io.spray#spray-io_2.11;1.3.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ae5a4b3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49aa187
 [debug] sbt-chain: module revision found in cache: io.spray#spray-io_2.11;1.3.3
 [debug] 	found io.spray#spray-io_2.11;1.3.3 in sbt-chain
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-io_2.11;1.3.3 [compile->runtime]
@@ -65,7 +65,7 @@
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-io_2.11;1.3.3 [compile->master]
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-util_2.11;1.3.3 [compile->default(compile)]
 [info] Resolving io.spray#spray-util_2.11;1.3.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b0f618f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@214e60e1
 [debug] sbt-chain: module revision found in cache: io.spray#spray-util_2.11;1.3.3
 [debug] 	found io.spray#spray-util_2.11;1.3.3 in sbt-chain
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-util_2.11;1.3.3 [compile->runtime]
@@ -73,7 +73,7 @@
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-util_2.11;1.3.3 [compile->master]
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-http_2.11;1.3.3 [compile->default(compile)]
 [info] Resolving io.spray#spray-http_2.11;1.3.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@233039e8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@65db6148
 [debug] sbt-chain: module revision found in cache: io.spray#spray-http_2.11;1.3.3
 [debug] 	found io.spray#spray-http_2.11;1.3.3 in sbt-chain
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-http_2.11;1.3.3 [compile->runtime]
@@ -81,7 +81,7 @@
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-http_2.11;1.3.3 [compile->master]
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.parboiled#parboiled-scala_2.11;1.1.7 [compile->default(compile)]
 [info] Resolving org.parboiled#parboiled-scala_2.11;1.1.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3392dc44
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18446c08
 [debug] sbt-chain: module revision found in cache: org.parboiled#parboiled-scala_2.11;1.1.7
 [debug] 	found org.parboiled#parboiled-scala_2.11;1.1.7 in sbt-chain
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.parboiled#parboiled-scala_2.11;1.1.7 [compile->runtime]
@@ -89,7 +89,7 @@
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.parboiled#parboiled-scala_2.11;1.1.7 [compile->master]
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.parboiled#parboiled-core;1.1.7 [compile->default(compile)]
 [info] Resolving org.parboiled#parboiled-core;1.1.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@badb8e9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71269c95
 [debug] sbt-chain: module revision found in cache: org.parboiled#parboiled-core;1.1.7
 [debug] 	found org.parboiled#parboiled-core;1.1.7 in sbt-chain
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.parboiled#parboiled-core;1.1.7 [compile->runtime]
@@ -97,7 +97,7 @@
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.parboiled#parboiled-core;1.1.7 [compile->master]
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-httpx_2.11;1.3.3 [compile->default(compile)]
 [info] Resolving io.spray#spray-httpx_2.11;1.3.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63a1177a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7af0eff6
 [debug] sbt-chain: module revision found in cache: io.spray#spray-httpx_2.11;1.3.3
 [debug] 	found io.spray#spray-httpx_2.11;1.3.3 in sbt-chain
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-httpx_2.11;1.3.3 [compile->runtime]
@@ -105,7 +105,7 @@
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-httpx_2.11;1.3.3 [compile->master]
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2dafb9be
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b123593
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.3 in sbt-chain
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->runtime]
@@ -113,7 +113,7 @@
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.scala-lang.modules#scala-xml_2.11;1.0.3 [compile->master]
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.jvnet.mimepull#mimepull;1.9.5 [compile->default(compile)]
 [info] Resolving org.jvnet.mimepull#mimepull;1.9.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2450673d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78cee517
 [debug] sbt-chain: module revision found in cache: org.jvnet.mimepull#mimepull;1.9.5
 [debug] 	found org.jvnet.mimepull#mimepull;1.9.5 in sbt-chain
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.jvnet.mimepull#mimepull;1.9.5 [compile->runtime]
@@ -121,7 +121,7 @@
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->org.jvnet.mimepull#mimepull;1.9.5 [compile->master]
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-json_2.11;1.3.2 [compile->default(compile)]
 [info] Resolving io.spray#spray-json_2.11;1.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@264581ef
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f8d281
 [debug] sbt-chain: module revision found in cache: io.spray#spray-json_2.11;1.3.2
 [debug] 	found io.spray#spray-json_2.11;1.3.2 in sbt-chain
 [debug] == resolving dependencies tweets#tweets$sources_2.11;0.1->io.spray#spray-json_2.11;1.3.2 [compile->runtime]
@@ -1055,194 +1055,56 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4.7!akka-actor_2.11.jar
-[debug] 		tried C:\Users\trantem\.ivy2\local\com.typesafe.akka\akka-actor_2.11\2.4.7\srcs\akka-actor_2.11-sources.jar
+[debug] 		tried /home/mark/.ivy2/local/com.typesafe.akka/akka-actor_2.11/2.4.7/srcs/akka-actor_2.11-sources.jar
 [debug] 		tried https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.7/akka-actor_2.11-2.4.7-sources.jar
 [info] downloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.7/akka-actor_2.11-2.4.7-sources.jar ...
 [debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.7/akka-actor_2.11-2.4.7-sources.jar
 [debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.7/akka-actor_2.11-2.4.7-sources.jar.sha1
 [debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.7/akka-actor_2.11-2.4.7-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.4.7!akka-actor_2.11.jar(src) (841ms)
-[debug] 		tried C:\Users\trantem\.ivy2\local\com.typesafe\config\1.3.0\jars\config.jar
-[debug] 		tried C:\Users\trantem\.ivy2\local\com.typesafe\config\1.3.0\srcs\config-sources.jar
-[debug] 		tried https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar
-[info] downloading https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0.jar
-[info] 	[SUCCESSFUL ] com.typesafe#config;1.3.0!config.jar (209ms)
-[debug] 		tried https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0-sources.jar
-[info] downloading https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/config/1.3.0/config-1.3.0-sources.jar
-[info] 	[SUCCESSFUL ] com.typesafe#config;1.3.0!config.jar(src) (180ms)
-[debug] 		tried C:\Users\trantem\.ivy2\local\org.scala-lang.modules\scala-java8-compat_2.11\0.7.0\jars\scala-java8-compat_2.11.jar
-[debug] 		tried C:\Users\trantem\.ivy2\local\org.scala-lang.modules\scala-java8-compat_2.11\0.7.0\srcs\scala-java8-compat_2.11-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar
-[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar (283ms)
-[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0-sources.jar
-[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(src) (144ms)
-[debug] 		tried C:\Users\trantem\.ivy2\local\io.spray\spray-client_2.11\1.3.3\srcs\spray-client_2.11-sources.jar
-[debug] 		tried C:\Users\trantem\.ivy2\local\io.spray\spray-client_2.11\1.3.3\jars\spray-client_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3-sources.jar
-[info] downloading https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3-sources.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-client_2.11;1.3.3!spray-client_2.11.jar(src) (145ms)
-[debug] 		tried https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3.jar
-[info] downloading https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/io/spray/spray-client_2.11/1.3.3/spray-client_2.11-1.3.3.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-client_2.11;1.3.3!spray-client_2.11.jar (158ms)
-[debug] 		tried C:\Users\trantem\.ivy2\local\io.spray\spray-can_2.11\1.3.3\srcs\spray-can_2.11-sources.jar
-[debug] 		tried C:\Users\trantem\.ivy2\local\io.spray\spray-can_2.11\1.3.3\jars\spray-can_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3-sources.jar
-[info] downloading https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3-sources.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-can_2.11;1.3.3!spray-can_2.11.jar(src) (168ms)
-[debug] 		tried https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3.jar
-[info] downloading https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/io/spray/spray-can_2.11/1.3.3/spray-can_2.11-1.3.3.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-can_2.11;1.3.3!spray-can_2.11.jar (277ms)
-[debug] 		tried C:\Users\trantem\.ivy2\local\io.spray\spray-io_2.11\1.3.3\jars\spray-io_2.11.jar
-[debug] 		tried C:\Users\trantem\.ivy2\local\io.spray\spray-io_2.11\1.3.3\srcs\spray-io_2.11-sources.jar
-[debug] 		tried https://jcenter.bintray.com/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3.jar
-[info] downloading https://jcenter.bintray.com/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-io_2.11;1.3.3!spray-io_2.11.jar (171ms)
-[debug] 		tried https://jcenter.bintray.com/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3-sources.jar
-[info] downloading https://jcenter.bintray.com/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/io/spray/spray-io_2.11/1.3.3/spray-io_2.11-1.3.3-sources.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-io_2.11;1.3.3!spray-io_2.11.jar(src) (134ms)
-[debug] 		tried C:\Users\trantem\.ivy2\local\io.spray\spray-util_2.11\1.3.3\srcs\spray-util_2.11-sources.jar
-[debug] 		tried C:\Users\trantem\.ivy2\local\io.spray\spray-util_2.11\1.3.3\jars\spray-util_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3-sources.jar
-[info] downloading https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3-sources.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-util_2.11;1.3.3!spray-util_2.11.jar(src) (140ms)
-[debug] 		tried https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3.jar
-[info] downloading https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/io/spray/spray-util_2.11/1.3.3/spray-util_2.11-1.3.3.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-util_2.11;1.3.3!spray-util_2.11.jar (172ms)
-[debug] 		tried C:\Users\trantem\.ivy2\local\io.spray\spray-http_2.11\1.3.3\srcs\spray-http_2.11-sources.jar
-[debug] 		tried C:\Users\trantem\.ivy2\local\io.spray\spray-http_2.11\1.3.3\jars\spray-http_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3-sources.jar
-[info] downloading https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3-sources.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-http_2.11;1.3.3!spray-http_2.11.jar(src) (142ms)
-[debug] 		tried https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3.jar
-[info] downloading https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/io/spray/spray-http_2.11/1.3.3/spray-http_2.11-1.3.3.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-http_2.11;1.3.3!spray-http_2.11.jar (343ms)
-[debug] 		tried C:\Users\trantem\.ivy2\local\org.parboiled\parboiled-scala_2.11\1.1.7\srcs\parboiled-scala_2.11-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.4.7!akka-actor_2.11.jar(src) (1558ms)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.3.0!config.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.11;0.7.0!scala-java8-compat_2.11.jar(src)
+[debug] 	[NOT REQUIRED] io.spray#spray-client_2.11;1.3.3!spray-client_2.11.jar(src)
+[debug] 	[NOT REQUIRED] io.spray#spray-client_2.11;1.3.3!spray-client_2.11.jar
+[debug] 	[NOT REQUIRED] io.spray#spray-can_2.11;1.3.3!spray-can_2.11.jar
+[debug] 	[NOT REQUIRED] io.spray#spray-can_2.11;1.3.3!spray-can_2.11.jar(src)
+[debug] 	[NOT REQUIRED] io.spray#spray-io_2.11;1.3.3!spray-io_2.11.jar(src)
+[debug] 	[NOT REQUIRED] io.spray#spray-io_2.11;1.3.3!spray-io_2.11.jar
+[debug] 	[NOT REQUIRED] io.spray#spray-util_2.11;1.3.3!spray-util_2.11.jar
+[debug] 	[NOT REQUIRED] io.spray#spray-util_2.11;1.3.3!spray-util_2.11.jar(src)
+[debug] 	[NOT REQUIRED] io.spray#spray-http_2.11;1.3.3!spray-http_2.11.jar
+[debug] 	[NOT REQUIRED] io.spray#spray-http_2.11;1.3.3!spray-http_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.parboiled#parboiled-scala_2.11;1.1.7!parboiled-scala_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-scala_2.11;1.1.7!parboiled-scala_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7-sources.jar
-[info] downloading https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7-sources.jar
-[info] 	[SUCCESSFUL ] org.parboiled#parboiled-scala_2.11;1.1.7!parboiled-scala_2.11.jar(src) (160ms)
-[debug] 		tried C:\Users\trantem\.ivy2\local\org.parboiled\parboiled-core\1.1.7\srcs\parboiled-core-sources.jar
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.7!parboiled-core.jar
-[debug] 		tried https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7-sources.jar
-[info] downloading https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7-sources.jar
-[info] 	[SUCCESSFUL ] org.parboiled#parboiled-core;1.1.7!parboiled-core.jar(src) (180ms)
-[debug] 		tried C:\Users\trantem\.ivy2\local\io.spray\spray-httpx_2.11\1.3.3\jars\spray-httpx_2.11.jar
-[debug] 		tried C:\Users\trantem\.ivy2\local\io.spray\spray-httpx_2.11\1.3.3\srcs\spray-httpx_2.11-sources.jar
-[debug] 		tried https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3.jar
-[info] downloading https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-httpx_2.11;1.3.3!spray-httpx_2.11.jar (225ms)
-[debug] 		tried https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3-sources.jar
-[info] downloading https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/io/spray/spray-httpx_2.11/1.3.3/spray-httpx_2.11-1.3.3-sources.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-httpx_2.11;1.3.3!spray-httpx_2.11.jar(src) (149ms)
-[debug] 		tried C:\Users\trantem\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.3\jars\scala-xml_2.11.jar
-[debug] 		tried C:\Users\trantem\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.3\srcs\scala-xml_2.11-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.jar
-[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar (259ms)
-[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar
-[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(src) (185ms)
-[debug] 		tried C:\Users\trantem\.ivy2\local\org.jvnet.mimepull\mimepull\1.9.5\srcs\mimepull-sources.jar
+[debug] 	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.7!parboiled-core.jar(src)
+[debug] 	[NOT REQUIRED] io.spray#spray-httpx_2.11;1.3.3!spray-httpx_2.11.jar
+[debug] 	[NOT REQUIRED] io.spray#spray-httpx_2.11;1.3.3!spray-httpx_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar
+[debug] 	[NOT REQUIRED] org.jvnet.mimepull#mimepull;1.9.5!mimepull.jar(src)
 [debug] 	[NOT REQUIRED] org.jvnet.mimepull#mimepull;1.9.5!mimepull.jar
-[debug] 		tried https://jcenter.bintray.com/org/jvnet/mimepull/mimepull/1.9.5/mimepull-1.9.5-sources.jar
-[info] downloading https://jcenter.bintray.com/org/jvnet/mimepull/mimepull/1.9.5/mimepull-1.9.5-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jvnet/mimepull/mimepull/1.9.5/mimepull-1.9.5-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/jvnet/mimepull/mimepull/1.9.5/mimepull-1.9.5-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/jvnet/mimepull/mimepull/1.9.5/mimepull-1.9.5-sources.jar
-[info] 	[SUCCESSFUL ] org.jvnet.mimepull#mimepull;1.9.5!mimepull.jar(src) (150ms)
-[debug] 		tried C:\Users\trantem\.ivy2\local\io.spray\spray-json_2.11\1.3.2\jars\spray-json_2.11.jar
-[debug] 		tried C:\Users\trantem\.ivy2\local\io.spray\spray-json_2.11\1.3.2\srcs\spray-json_2.11-sources.jar
-[debug] 		tried https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar
-[info] downloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-json_2.11;1.3.2!spray-json_2.11.jar (246ms)
-[debug] 		tried https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2-sources.jar
-[info] downloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.2/spray-json_2.11-1.3.2-sources.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-json_2.11;1.3.2!spray-json_2.11.jar(src) (149ms)
+[debug] 	[NOT REQUIRED] io.spray#spray-json_2.11;1.3.2!spray-json_2.11.jar
+[debug] 	[NOT REQUIRED] io.spray#spray-json_2.11;1.3.2!spray-json_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 228ms :: artifacts dl 5271ms
-[debug] 	report for tweets#tweets$sources_2.11;0.1 compile produced in D:\trendza\tweets\target\resolution-cache\reports\tweets-tweets$sources_2.11-compile.xml
-[debug] 	report for tweets#tweets$sources_2.11;0.1 runtime produced in D:\trendza\tweets\target\resolution-cache\reports\tweets-tweets$sources_2.11-runtime.xml
-[debug] 	report for tweets#tweets$sources_2.11;0.1 test produced in D:\trendza\tweets\target\resolution-cache\reports\tweets-tweets$sources_2.11-test.xml
-[debug] 	report for tweets#tweets$sources_2.11;0.1 provided produced in D:\trendza\tweets\target\resolution-cache\reports\tweets-tweets$sources_2.11-provided.xml
-[debug] 	report for tweets#tweets$sources_2.11;0.1 optional produced in D:\trendza\tweets\target\resolution-cache\reports\tweets-tweets$sources_2.11-optional.xml
-[debug] 	report for tweets#tweets$sources_2.11;0.1 compile-internal produced in D:\trendza\tweets\target\resolution-cache\reports\tweets-tweets$sources_2.11-compile-internal.xml
-[debug] 	report for tweets#tweets$sources_2.11;0.1 runtime-internal produced in D:\trendza\tweets\target\resolution-cache\reports\tweets-tweets$sources_2.11-runtime-internal.xml
-[debug] 	report for tweets#tweets$sources_2.11;0.1 test-internal produced in D:\trendza\tweets\target\resolution-cache\reports\tweets-tweets$sources_2.11-test-internal.xml
-[debug] 	report for tweets#tweets$sources_2.11;0.1 plugin produced in D:\trendza\tweets\target\resolution-cache\reports\tweets-tweets$sources_2.11-plugin.xml
-[debug] 	report for tweets#tweets$sources_2.11;0.1 sources produced in D:\trendza\tweets\target\resolution-cache\reports\tweets-tweets$sources_2.11-sources.xml
-[debug] 	report for tweets#tweets$sources_2.11;0.1 docs produced in D:\trendza\tweets\target\resolution-cache\reports\tweets-tweets$sources_2.11-docs.xml
-[debug] 	report for tweets#tweets$sources_2.11;0.1 pom produced in D:\trendza\tweets\target\resolution-cache\reports\tweets-tweets$sources_2.11-pom.xml
-[debug] 	report for tweets#tweets$sources_2.11;0.1 scala-tool produced in D:\trendza\tweets\target\resolution-cache\reports\tweets-tweets$sources_2.11-scala-tool.xml
-[debug] 	resolve done (228ms resolve - 5271ms download)
+[debug] :: resolution report :: resolve 445ms :: artifacts dl 1583ms
+[debug] 	report for tweets#tweets$sources_2.11;0.1 compile produced in /home/mark/projects/trendza/tweets/target/resolution-cache/reports/tweets-tweets$sources_2.11-compile.xml
+[debug] 	report for tweets#tweets$sources_2.11;0.1 runtime produced in /home/mark/projects/trendza/tweets/target/resolution-cache/reports/tweets-tweets$sources_2.11-runtime.xml
+[debug] 	report for tweets#tweets$sources_2.11;0.1 test produced in /home/mark/projects/trendza/tweets/target/resolution-cache/reports/tweets-tweets$sources_2.11-test.xml
+[debug] 	report for tweets#tweets$sources_2.11;0.1 provided produced in /home/mark/projects/trendza/tweets/target/resolution-cache/reports/tweets-tweets$sources_2.11-provided.xml
+[debug] 	report for tweets#tweets$sources_2.11;0.1 optional produced in /home/mark/projects/trendza/tweets/target/resolution-cache/reports/tweets-tweets$sources_2.11-optional.xml
+[debug] 	report for tweets#tweets$sources_2.11;0.1 compile-internal produced in /home/mark/projects/trendza/tweets/target/resolution-cache/reports/tweets-tweets$sources_2.11-compile-internal.xml
+[debug] 	report for tweets#tweets$sources_2.11;0.1 runtime-internal produced in /home/mark/projects/trendza/tweets/target/resolution-cache/reports/tweets-tweets$sources_2.11-runtime-internal.xml
+[debug] 	report for tweets#tweets$sources_2.11;0.1 test-internal produced in /home/mark/projects/trendza/tweets/target/resolution-cache/reports/tweets-tweets$sources_2.11-test-internal.xml
+[debug] 	report for tweets#tweets$sources_2.11;0.1 plugin produced in /home/mark/projects/trendza/tweets/target/resolution-cache/reports/tweets-tweets$sources_2.11-plugin.xml
+[debug] 	report for tweets#tweets$sources_2.11;0.1 sources produced in /home/mark/projects/trendza/tweets/target/resolution-cache/reports/tweets-tweets$sources_2.11-sources.xml
+[debug] 	report for tweets#tweets$sources_2.11;0.1 docs produced in /home/mark/projects/trendza/tweets/target/resolution-cache/reports/tweets-tweets$sources_2.11-docs.xml
+[debug] 	report for tweets#tweets$sources_2.11;0.1 pom produced in /home/mark/projects/trendza/tweets/target/resolution-cache/reports/tweets-tweets$sources_2.11-pom.xml
+[debug] 	report for tweets#tweets$sources_2.11;0.1 scala-tool produced in /home/mark/projects/trendza/tweets/target/resolution-cache/reports/tweets-tweets$sources_2.11-scala-tool.xml
+[debug] 	resolve done (445ms resolve - 1583ms download)

@@ -4,7 +4,7 @@
 		module="tweets$sources_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20160705165106"
+		publication="20160705173722"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

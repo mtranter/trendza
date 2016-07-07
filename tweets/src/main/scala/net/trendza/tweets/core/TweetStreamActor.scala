@@ -115,6 +115,6 @@ class TweetStreamerActor(uri: Uri, processor: ActorRef) extends Actor with Tweet
   def connected: Receive = {
     case ChunkedResponseStart(_) =>
     case MessageChunk(entity, _) => TweetUnmarshaller(entity).fold(x =>  throw new Error(x.toString), processor !)
-
+    case _ =>
    }
 }

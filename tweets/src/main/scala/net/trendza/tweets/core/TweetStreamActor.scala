@@ -8,37 +8,28 @@ package net.trendza.tweets.core
 import java.io.{File, PrintWriter}
 import java.util.Date
 
-import akka.actor.{Actor, ActorRef}
+import akka.actor.{Actor, ActorLogging, ActorRef}
 import akka.io.IO
 import net.trendza.tweets.core.OAuth._
-import net.trendza.tweets.core.TweetStreamActor.OpenStream
+import net.trendza.tweets.core.TweetStreamActor.{OpenStream, StopStreaming}
 import net.trendza.tweets.domain._
 import spray.can.Http
 import spray.client.pipelining._
 import spray.http.{HttpRequest, MessageChunk, _}
 import spray.json._
-import spray.httpx.unmarshalling._
 
 import scala.io.Source
-import scala.util.Try
 
-trait FileLogger {
-  def log(str: String) = {
-    val home = System.getProperty("user.home")
-    val writer = new PrintWriter(new File(s"$home/projects/trendza/log.txt" ))
-    writer.write(str)
-    writer.flush()
-    writer.close()
-  }
-}
 
 object MyJsonProtocol extends DefaultJsonProtocol {
   implicit object DateFormater extends JsonFormat[Date]{
     override def write(obj: Date): JsValue = ???
 
-    override def read(json: JsValue): Date = {
-      val format = new java.text.SimpleDateFormat("EEE MMM dd HH:mm:ss Z yyyy")
-      format.parse(json.toString())
+    override def read(json: JsValue): Date = json match {
+      case JsString(sval) => {
+        val format = new java.text.SimpleDateFormat("EEE MMM dd HH:mm:ss Z yyyy")
+        format.parse(sval)
+      }
     }
   }
 
@@ -61,43 +52,44 @@ trait OAuthTwitterAuthorization extends TwitterAuthorization {
 
   val authorize: (HttpRequest) => HttpRequest = oAuthAuthorizer(consumer, token)
 }
-import MyJsonProtocol._
-trait TweetMarshaller {
-
-   object TweetUnmarshaller extends FileLogger {
-
-     implicit def sprayJsonUnmarshaller[T: RootJsonReader]: Unmarshaller[T] =
-       new Unmarshaller[T] {
-         override def apply(v1: HttpEntity): Deserialized[T] = v1 match {
-           case x: HttpEntity.NonEmpty ⇒
-             log(v1.asString)
-             val json = JsonParser(x.asString(defaultCharset = HttpCharsets.`UTF-8`))
-             try {
-               Right(implicitly[RootJsonReader[T]].read(json))
-             }catch {
-               case x: DeserializationError => Left(x)
-             }
-         }
-       }
 
 
-    def apply(entity: HttpEntity): Deserialized[Tweet] = {
-      Try {
-        entity.as[Tweet]
+trait ChunkedTweetStreamer {
+  this: ActorLogging =>
+
+  private var chunk = ""
+
+  def newTweet(t: Tweet): Unit
+
+  def deserializeTweet(t: String): Either[DeserializationException,Tweet]
+
+  def addChunk(entity: HttpEntity): Unit = {
+    val entStr = entity.asString(defaultCharset = HttpCharsets.`ISO-8859-1`)
+    if(entStr.endsWith("\r\n")){
+      deserializeTweet(chunk + entStr) match {
+        case Right(t) => newTweet(t)
+        case Left(x) => log.error(s"Tweet deserialization error: $x")
       }
-    }.getOrElse(Left(MalformedContent("bad json: " + entity.asString)))
+      chunk = ""
+    }else{
+      chunk = chunk + entStr
+    }
   }
 }
 
 object TweetStreamActor {
 
   val twitterUri = Uri("https://stream.twitter.com/1.1/statuses/filter.json")
-
   case class OpenStream(follow: Array[String])
+  case object StopStreaming
 }
 
-class TweetStreamerActor(uri: Uri, processor: ActorRef) extends Actor with TweetMarshaller {
+class TweetStreamerActor(uri: Uri, processor: ActorRef) extends Actor with ActorLogging with ChunkedTweetStreamer {
+
   this: TwitterAuthorization =>
+
+  import MyJsonProtocol._
+
   val io = IO(Http)(context.system)
 
   def receive: Receive = ready
@@ -109,12 +101,25 @@ class TweetStreamerActor(uri: Uri, processor: ActorRef) extends Actor with Tweet
         s"track=${follow mkString ","}")
       val rq =  HttpRequest(HttpMethods.POST, uri = uri, entity = body) ~> authorize
       sendTo(io).withResponsesReceivedBy(self)(rq)
-      context become connected
+
+      context become streaming
+    case _ =>
   }
 
-  def connected: Receive = {
+  def streaming: Receive = {
     case ChunkedResponseStart(_) =>
-    case MessageChunk(entity, _) => TweetUnmarshaller(entity).fold(x =>  throw new Error(x.toString), processor !)
+    case MessageChunk(entity, _) => addChunk(entity)
+    case StopStreaming => io ! Http.Close; context become ready;
     case _ =>
-   }
+  }
+
+  override def deserializeTweet(t: String): Either[DeserializationException,Tweet] = {
+    try {
+      val json = JsonParser(t)
+      Right(implicitly[RootJsonReader[Tweet]].read(json))
+    }catch {
+      case x: DeserializationException => Left(x)
+    }}
+
+  override def newTweet(t: Tweet): Unit = processor ! t
 }

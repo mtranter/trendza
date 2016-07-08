@@ -45,3 +45,7 @@ runMain net.trendza.tweets.core.Main
 run
 runMain
 runMain net.trendza.tweets.core.Main
+track brexit
+runMain net.trendza.tweets.core.Main
+track brexit
+runMain net.trendza.tweets.core.Main

@@ -6,7 +6,7 @@ import java.util.Date
   * Created by mark on 05/07/16.
   */
 
-case class User(id: String, screen_name: String)
+case class User(id: Long, screen_name: String)
 
 case class Place(country: String, name: String, full_name: String) {
   override def toString = s"$name, $country"

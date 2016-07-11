@@ -4,6 +4,7 @@ import Keys._
 object Dependencies {
   val akkaV = "2.4.7"
   val sprayV = "1.3.3"
+  val kafkaV = "0.10.0.0"
 
   val spraycan =      "io.spray"            %%    "spray-can"       % sprayV
   val sprayclient =   "io.spray"            %%    "spray-client"    % sprayV
@@ -17,8 +18,15 @@ object Dependencies {
   val akkacore =      "com.typesafe.akka"   %%    "akka-actor"      % akkaV
   val akkatest =      "com.typesafe.akka"   %%    "akka-testkit"    % akkaV   % "test"
 
+  val kafka =         "org.apache.kafka"    %%    "kafka"           % kafkaV
+
+  val samza =         "org.apache.samza"    % "samza-api"           % "0.10.0"
+
   val sprayServerLibs = Seq(spraycan, sprayrouting)
   val sprayClientLibs = Seq(sprayclient, spraycan, sprayhttp, sprayhttpx, sprayutil, sprayjson)
 
   val tweetLibs = Seq(akkacore) ++ sprayClientLibs
+  val kafkaLibs = Seq(akkacore) :+ kafka
+  val crunchingLibs = Seq(samza) :+ sprayjson
+
 }

@@ -21,24 +21,6 @@ import spray.json._
 import scala.io.Source
 
 
-object MyJsonProtocol extends DefaultJsonProtocol {
-  implicit object DateFormater extends JsonFormat[Date]{
-    override def write(obj: Date): JsValue = ???
-
-    override def read(json: JsValue): Date = json match {
-      case JsString(sval) => {
-        val format = new java.text.SimpleDateFormat("EEE MMM dd HH:mm:ss Z yyyy")
-        format.parse(sval)
-      }
-    }
-  }
-
-  implicit val UserFormat = jsonFormat2(User)
-  implicit val PlaceFormat = jsonFormat3(Place)
-  implicit val PointFormat = jsonFormat1(Point)
-  implicit val TweetFormat = jsonFormat7(Tweet)
-}
-
 trait TwitterAuthorization {
   def authorize: HttpRequest => HttpRequest
 }
@@ -88,7 +70,7 @@ class TweetStreamerActor(uri: Uri, processor: ActorRef) extends Actor with Actor
 
   this: TwitterAuthorization =>
 
-  import MyJsonProtocol._
+  import TweetJsonProtocol._
 
   val io = IO(Http)(context.system)
 
@@ -109,7 +91,10 @@ class TweetStreamerActor(uri: Uri, processor: ActorRef) extends Actor with Actor
   def streaming: Receive = {
     case ChunkedResponseStart(_) =>
     case MessageChunk(entity, _) => addChunk(entity)
-    case StopStreaming => io ! Http.Close; context become ready;
+    case StopStreaming => {
+      io ! Http.Close
+      context become ready
+    }
     case _ =>
   }
 
@@ -119,6 +104,10 @@ class TweetStreamerActor(uri: Uri, processor: ActorRef) extends Actor with Actor
       Right(implicitly[RootJsonReader[Tweet]].read(json))
     }catch {
       case x: DeserializationException => Left(x)
+      case t: Throwable => {
+        log.error(t, "deserialization exception")
+        Left(new DeserializationException("Unknown"))
+      }
     }}
 
   override def newTweet(t: Tweet): Unit = processor ! t

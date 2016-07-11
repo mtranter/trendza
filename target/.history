@@ -49,3 +49,14 @@ track brexit
 runMain net.trendza.tweets.core.Main
 track brexit
 runMain net.trendza.tweets.core.Main
+compile
+exit
+runMain net.trendza.kafka.Main
+compile
+runMain net.trendza.kafka.Main
+compile
+runMain net.trendza.kafka.Main
+console
+runMain net.trendza.kafka.Main
+console
+runMain net.trendza.kafka.Main
